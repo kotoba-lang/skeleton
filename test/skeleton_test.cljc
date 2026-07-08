@@ -7,7 +7,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'skeleton)))))
+    (is (some? (find-ns 'skeleton)))))
 
 (defn- mkbone [name parent pos]
   (skeleton/bone {:name name :parent parent :local-position pos
