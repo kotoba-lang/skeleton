@@ -21,7 +21,7 @@ pose evaluation itself.
 ## Status
 
 Restored — ported from the original 892-line Rust `lib.rs`. All 12
-original Rust unit tests mirrored 1:1 in `test/skeleton_test.cljc` (+1
+original Rust unit tests mirrored 1:1 in `test/skeleton_test.cljk` (+1
 smoke test, + 1 constructor helper reused across tests counted
 separately by the test runner) — 15 tests / 37 assertions, 0 failures.
 Pure data + pure functions throughout; no IO/GPU.
